@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #DDD;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+
+    padding-bottom: 5px;
+    background-color: #333;
+    border-bottom: 5px solid #349D16;
+
+
+}
+
+h1,h2,h3{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    padding: 15px 0;
+}
+h3{
+    padding: 10px 0;
+}
+p{
+    font-size: 1.3em;
+}
+a{
+    color: black;
+}
+header h1,header h3{
+    margin: 0 auto;
+    width: 75%;
+    color: #DDD;
+}
+ul{
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+}
+li{
+    list-style-type: none;
+    width: calc(20% - 20px);
+    margin: 2px;
+    float: left;
+
+}
+li a{
+    display: block;
+    padding: 7px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    background-color: #DDD;
+    border: solid 3px #333;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+li a:hover{
+
+    /*color: #349D16;*/
+    background-color: #DDD;
+    border-color: #349D16;
+}
+
+footer{
+
+    width:85%;
+    margin: 0 auto;
+}
+
+#wrapper{
+    position: relative;
+
+}
+#content{
+    margin: 0 auto;
+    padding:20px;
+    width: 85%;
+    background-color: #FFF;
+}
+#comic-wrapper{
+    text-align: center;
+
+
+}
+#comic{
+    max-width: 100%;
+
+    text-align: center;
+}
+#about{
+    clear: both;
+    overflow: auto;
+}
+
+#wildcat{
+    color: #0540AB;
+}
+#wildcat:hover{
+    color: #76A6FF;
+}
+#published{
+    width: 70%;
+    margin: 30px auto  30px auto;
+    padding-bottom: 20px;
+    border-bottom: solid #349D16 2px;
+}
+p#published{
+    clear: both;
+    text-align: center;
+}
+
+#profile_pic{
+    float: left;
+    max-width: 100px;
+}
+#bio{
+    margin: 0 0 0 120px;
+    text-align: left;
+    font-size: 1em;
+}
+
+.content{
+    padding: 2% 10%;
+}
+.comic-nav ul{
+    clear:both;
+    /*overflow: auto;*/
+}
+.me,.links{
+    min-height: 100px;
+    margin: 0 20px;
+    float: left;
+    /*width:calc(50% - 50px);*/
+}
+.me h3,.links h3{
+    margin: 10px 0;
+    padding: 0px;
+    }
+.hide{
+    visibility: hidden;
+}
+.copyright{
+    padding:10px 0;
+}
+
